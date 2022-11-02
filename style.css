@@ -139,7 +139,18 @@ body {
     }
 }
 
+.gris-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
 .grisen {
-    height: 50%;
-    width: 50%;
+    height: 40vh;
+    width: 80%;
+    margin-bottom: 10vh;
+    margin-right: 8vw;
+
 }
