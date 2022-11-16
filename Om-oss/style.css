@@ -188,6 +188,7 @@ body {
 .arne-image {
   width: 100%;
   max-width: 100%;
+  max-width: 40vw;
   height: auto;
   max-height: 25vh;
   border-radius: 15px;
