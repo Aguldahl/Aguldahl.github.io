@@ -157,9 +157,9 @@ body {
 
 .flex-container {
   display: flex;
-  padding-top: 1vh;
+  padding-top: 2vh;
   height: 25vh;
-
+  margin: 20px;
 }
 
 
@@ -167,14 +167,14 @@ body {
   display: flex;
   width: 50%;
   align-items: center;
-
+  justify-content: center;
 }
 
 .flex-item-img {
   display: flex;
   width: 50%;
   align-items: center;
-  justify-content: right;
+  justify-content: center;
   padding-right: 5px;
 }
 
@@ -188,10 +188,10 @@ body {
 .arne-image {
   width: 100%;
   max-width: 100%;
-  max-width: 40vw;
+  max-width: 600px;
   height: auto;
   max-height: 25vh;
   border-radius: 15px;
   min-width: 100px;
-
+  padding-top: 10px;
 }
