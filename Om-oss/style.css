@@ -151,8 +151,9 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   height: 100%;
-
+  border: 3px solid;
   margin-top: 1vh;
+  width: 100%;
 }
 
 .flex-container {
@@ -160,6 +161,7 @@ body {
   padding-top: 2vh;
   height: 25vh;
   margin: 20px;
+  width: 100%;
 }
 
 
@@ -168,6 +170,7 @@ body {
   width: 50%;
   align-items: center;
   justify-content: center;
+  border: 3px solid;
 }
 
 .flex-item-img {
@@ -176,13 +179,15 @@ body {
   align-items: center;
   justify-content: center;
   padding-right: 5px;
+  border: 3px solid;
 }
 
 
 .info {
-  font-size: 3vmax;
+  font-size: 2.7vmax;
   color: #0e2431c6;
-
+  margin: 30px;
+  
 }
 
 .arne-image {
@@ -194,4 +199,9 @@ body {
   border-radius: 15px;
   min-width: 100px;
   padding-top: 10px;
+}
+
+.ove-image {
+  width: 100%;
+  width: 100%;
 }
