@@ -148,7 +148,7 @@ body {
 }
 
 .grisen {
-    height: 40vh;
+    height: 40vmax;
     width: 80%;
     margin-bottom: 10vh;
     margin-right: 8vw;
