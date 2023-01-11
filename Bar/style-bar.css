@@ -153,15 +153,23 @@ body {
 
 .bar-container {
     display: flex;
-    border: 3px solid;
+    border: px solid;
 
     
 }
 
 .drink-items {
     list-style: none;
-    border: 3px solid;
-    width: 50%;
+    border: px solid;
+    width: 100%;
     text-align: center;
     padding: 4px
+}
+
+.drink-items ul {
+    width: 50%;
+}
+
+.drink-items li {
+    margin-top: 5vh;
 }
