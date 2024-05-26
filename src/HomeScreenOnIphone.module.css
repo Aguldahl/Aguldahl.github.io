@@ -1,0 +1,128 @@
+.sexyboi1Icon {
+  position: absolute;
+  top: 1541px;
+  left: 301px;
+  width: 336px;
+  height: 454px;
+  object-fit: contain;
+}
+.arneOveKoser1Icon {
+  position: absolute;
+  top: 1258px;
+  left: 296px;
+  width: 252px;
+  height: 257px;
+  object-fit: cover;
+}
+.hipphurraVintage1Icon {
+  position: absolute;
+  top: 1349px;
+  left: -39px;
+  width: 397px;
+  height: 505px;
+  object-fit: contain;
+}
+.bikkjeBrenn1Icon {
+  position: absolute;
+  top: 1019px;
+  left: -12px;
+  width: 324px;
+  height: 399px;
+  object-fit: contain;
+}
+.djEliasBw1Icon {
+  position: absolute;
+  top: 681px;
+  left: -50px;
+  width: 362px;
+  height: 373px;
+  object-fit: contain;
+}
+.djOveBw1Icon {
+  position: absolute;
+  top: 394px;
+  left: 28px;
+  width: 207px;
+  height: 243px;
+  object-fit: contain;
+}
+.mykkisWilhelmVinenKallerBwIcon {
+  position: absolute;
+  top: 398px;
+  left: 211px;
+  width: 275px;
+  height: 412px;
+  object-fit: contain;
+}
+.oveMiddagVintage1Icon {
+  position: absolute;
+  top: 26px;
+  left: 12px;
+  width: 237px;
+  height: 321px;
+  object-fit: contain;
+}
+.arneTarBilder1Icon {
+  position: absolute;
+  top: 15px;
+  left: 202px;
+  width: 284px;
+  object-fit: contain;
+}
+
+.arneTarBilder1Icon {
+  height: 384px;
+}
+
+.djEliasMedFilter1Icon {
+  position: absolute;
+  top: 802px;
+  left: 241px;
+  width: 324px;
+  height: 393px;
+  object-fit: contain;
+}
+.pictures {
+  position: absolute;
+  height: 89.81%;
+  top: 12.44%;
+  bottom: -2.25%;
+  left: calc(50% - 258px);
+  width: 517px;
+  overflow-y: auto;
+}
+.hamburgerMenuChild {
+  width: 102px;
+  position: relative;
+  border-top: 1px solid #fff;
+  box-sizing: border-box;
+  height: 1px;
+}
+.hamburgerMenu {
+  position: absolute;
+  top: 54px;
+  right: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px;
+  mix-blend-mode: normal;
+}
+.bingen {
+  position: absolute;
+  top: 30px;
+  left: 21px;
+  mix-blend-mode: normal;
+}
+.homescreenOnIphone13 {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  height: 844px;
+  text-align: left;
+  font-size: 75px;
+  color: #fff;
+  font-family: Jomhuria, monospace;
+}
+
