@@ -7,6 +7,7 @@
 
 body {
   margin: 0; line-height: normal;
+  overflow-x: hidden;
 }
 
 .sexyboi1Icon {
@@ -95,13 +96,12 @@ body {
 }
 .pictures {
   position: absolute;
-  height: 89.81%;
-  top: 12.44%;
-  bottom: -2.25%;
+  height: 100%;
   left: calc(50% - 258px);
   width: 517px;
   overflow-y: scroll;
   scrollbar-width: none;
+  overflow-x: hidden;
 }
 .hamburgerMenuChild {
   width: 102px;
@@ -111,30 +111,40 @@ body {
   height: 1px;
 }
 .hamburgerMenu {
-  position: absolute;
-  top: 54px;
-  right: 26px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 13px;
   mix-blend-mode: normal;
+  z-index: 1;
 }
 .bingen {
-  position: absolute;
-  top: 30px;
-  left: 21px;
   mix-blend-mode: normal;
+  position: relative;
+  top: 8%;
+  z-index: 1;
 }
 .homescreenOnIphone13 {
-  position: relative;
   background-color: #000;
   text-align: left;
   font-size: 75px;
   color: #fff;
   font-family: Jomhuria, monospace;
   width: 100%;
-  height: 100vh
+  height: 100vh;
+
 }
 
+.topBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
