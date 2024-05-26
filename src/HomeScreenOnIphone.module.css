@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria:wght@400&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0; line-height: normal;
+}
+
 .sexyboi1Icon {
   position: absolute;
   top: 1541px;
@@ -89,7 +100,8 @@
   bottom: -2.25%;
   left: calc(50% - 258px);
   width: 517px;
-  overflow-y: auto;
+  overflow-y: scroll;
+  scrollbar-width: none;
 }
 .hamburgerMenuChild {
   width: 102px;
@@ -116,13 +128,13 @@
   mix-blend-mode: normal;
 }
 .homescreenOnIphone13 {
-  width: 100%;
   position: relative;
   background-color: #000;
-  height: 844px;
   text-align: left;
   font-size: 75px;
   color: #fff;
   font-family: Jomhuria, monospace;
+  width: 100%;
+  height: 100vh
 }
 
