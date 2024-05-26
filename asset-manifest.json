@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2a1f5628.css",
+    "main.js": "/static/js/main.0c435c5a.js",
+    "static/js/453.b29c296c.chunk.js": "/static/js/453.b29c296c.chunk.js",
+    "static/js/780.3dc74153.chunk.js": "/static/js/780.3dc74153.chunk.js",
+    "static/media/bikkje_brenn.jpg": "/static/media/bikkje_brenn.e2f990720ea95bacb42e.jpg",
+    "static/media/HippHurra_vintage.jpg": "/static/media/HippHurra_vintage.d9460c1b3d51500bf32c.jpg",
+    "static/media/Ove_middag_Vintage.jpg": "/static/media/Ove_middag_Vintage.c2861be8679b7c56805f.jpg",
+    "static/media/DJ_elias_BW.jpg": "/static/media/DJ_elias_BW.b812cb45b51cb3d47e32.jpg",
+    "static/media/DJ_ove_BW.jpg": "/static/media/DJ_ove_BW.7a01b873e917966f2bbc.jpg",
+    "static/media/mykkis_wilhelm_vinen_kaller_BW.jpg": "/static/media/mykkis_wilhelm_vinen_kaller_BW.5310ac9c504ce1d6cfb3.jpg",
+    "static/media/arne_ove_koser.jpg": "/static/media/arne_ove_koser.fc2fa49c5fed99b3864b.jpg",
+    "static/media/sexyBoi.jpg": "/static/media/sexyBoi.f156f3b1d5b8dce81ca3.jpg",
+    "static/media/DJ_elias_med_filter.jpg": "/static/media/DJ_elias_med_filter.e0c0a01e5848d5e0d592.jpg",
+    "static/media/arne_tar_bilder.jpg": "/static/media/arne_tar_bilder.85af922aed5268871fee.jpg",
+    "index.html": "/index.html",
+    "main.2a1f5628.css.map": "/static/css/main.2a1f5628.css.map",
+    "main.0c435c5a.js.map": "/static/js/main.0c435c5a.js.map",
+    "453.b29c296c.chunk.js.map": "/static/js/453.b29c296c.chunk.js.map",
+    "780.3dc74153.chunk.js.map": "/static/js/780.3dc74153.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a1f5628.css",
+    "static/js/main.0c435c5a.js"
+  ]
+}
