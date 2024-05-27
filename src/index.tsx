@@ -4,7 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {DevSupport} from "@react-buddy/ide-toolbox";
 import {ComponentPreviews, useInitial} from "./dev";
-import HomeScreenOnIphone from "./HomeScreenOnIphone";
+import HomeScreenMobile from "./HomeScreenMobile";
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
@@ -14,7 +14,7 @@ root.render(
         <DevSupport ComponentPreviews={ComponentPreviews}
                     useInitialHook={useInitial}
         >
-            <HomeScreenOnIphone/>
+            <HomeScreenMobile/>
         </DevSupport>
     </React.StrictMode>
 );

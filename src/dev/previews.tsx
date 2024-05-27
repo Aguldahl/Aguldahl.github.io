@@ -1,7 +1,7 @@
 import {ComponentPreview, Previews} from "@react-buddy/ide-toolbox";
 import {PaletteTree} from "./palette";
-import App from "../HomeScreenOnIphone";
-import HomeScreenOnIphone from "../HomeScreenOnIphone";
+import App from "../HomeScreenMobile";
+import HomeScreenMobile from "../HomeScreenMobile";
 
 const ComponentPreviews = () => {
     return (
@@ -9,8 +9,8 @@ const ComponentPreviews = () => {
             <ComponentPreview path="/App">
                 <App/>
             </ComponentPreview>
-            <ComponentPreview path="/HomeScreenOnIphone">
-                <HomeScreenOnIphone/>
+            <ComponentPreview path="/HomeScreenMobile">
+                <HomeScreenMobile/>
             </ComponentPreview>
         </Previews>
     );
