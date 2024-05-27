@@ -3,6 +3,7 @@ import {PaletteTree} from "./palette";
 import App from "../HomeScreenMobile";
 import HomeScreenMobile from "../HomeScreenMobile";
 
+
 const ComponentPreviews = () => {
     return (
         <Previews palette={<PaletteTree/>}>
@@ -10,6 +11,9 @@ const ComponentPreviews = () => {
                 <App/>
             </ComponentPreview>
             <ComponentPreview path="/HomeScreenMobile">
+                <HomeScreenMobile/>
+            </ComponentPreview>
+            <ComponentPreview path="/HomeScreenOnIphone">
                 <HomeScreenMobile/>
             </ComponentPreview>
         </Previews>

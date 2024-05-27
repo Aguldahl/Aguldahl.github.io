@@ -1,10 +1,10 @@
 import {FunctionComponent, useEffect, useState} from 'react';
-import styles from './HomeScreenOnIphone.module.css';
+import styles from './HomeScreenMobile.module.css';
 
 
 
 
-const HomeScreenOnIphone:  FunctionComponent= () => {
+const HomeScreenMobile:  FunctionComponent= () => {
     const [load, setLoaded] = useState(false);
     useEffect(() => {
         setLoaded(true);
@@ -36,4 +36,4 @@ const HomeScreenOnIphone:  FunctionComponent= () => {
       </div>);
 };
 
-export default HomeScreenOnIphone;
+export default HomeScreenMobile;
