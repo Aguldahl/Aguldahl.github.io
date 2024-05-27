@@ -1,10 +1,10 @@
 import { FunctionComponent } from 'react';
-import styles from './HomeScreenOnIphone.module.css';
+import styles from './HomeScreenMobile.module.css';
 
 
 
 
-const HomeScreenOnIphone:  FunctionComponent= () => {
+const HomeScreenMobile:  FunctionComponent= () => {
   return (
       <div className={styles.homescreenOnIphone13}>
           <div className={styles.topBar}>
@@ -31,4 +31,4 @@ const HomeScreenOnIphone:  FunctionComponent= () => {
       </div>);
 };
 
-export default HomeScreenOnIphone;
+export default HomeScreenMobile;
