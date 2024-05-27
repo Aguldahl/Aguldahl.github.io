@@ -148,3 +148,25 @@ body {
   align-items: center;
   padding: 0 20px;
 }
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slideUpAnimation {
+  animation: slideUp 1s ease forwards;
+  position: absolute;
+  height: 100%;
+  left: calc(50% - 258px);
+  width: 517px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  overflow-x: hidden;
+}

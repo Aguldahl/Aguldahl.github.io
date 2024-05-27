@@ -1,10 +1,15 @@
-import { FunctionComponent } from 'react';
+import {FunctionComponent, useEffect, useState} from 'react';
 import styles from './HomeScreenOnIphone.module.css';
 
 
 
 
 const HomeScreenOnIphone:  FunctionComponent= () => {
+    const [load, setLoaded] = useState(false);
+    useEffect(() => {
+        setLoaded(true);
+    }, []);
+    const imageClassName = load ? styles.slideUpAnimation : styles.pictures;
   return (
       <div className={styles.homescreenOnIphone13}>
           <div className={styles.topBar}>
@@ -14,7 +19,7 @@ const HomeScreenOnIphone:  FunctionComponent= () => {
                   <div className={styles.hamburgerMenuChild}/>
               </div>
           </div>
-          <div className={styles.pictures}>
+          <div className={imageClassName}>
               <img className={styles.sexyboi1Icon} alt="" src={require("./assets/sexyBoi.jpg")}/>
               <img className={styles.arneOveKoser1Icon} alt="" src={require("./assets/arne_ove_koser.jpg")}/>
               <img className={styles.hipphurraVintage1Icon} alt="" src={require("./assets/HippHurra_vintage.jpg")}/>
