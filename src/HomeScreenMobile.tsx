@@ -1,24 +1,13 @@
-import {FunctionComponent, useEffect, useState} from 'react';
-import styles from './HomeScreenMobile.module.css';
-
-
+import {FunctionComponent} from 'react';
+import styles from './styles/HomeScreenMobile.module.css';
+import TopBar from "./Components/TopBar";
 
 
 const HomeScreenMobile:  FunctionComponent= () => {
-    const [load, setLoaded] = useState(false);
-    useEffect(() => {
-        setLoaded(true);
-    }, []);
 
   return (
       <div className={styles.homescreenOnIphone13}>
-          <div className={styles.topBar}>
-              <div className={styles.bingen}>BINGEN</div>
-              <div className={styles.hamburgerMenu}>
-                  <div className={styles.hamburgerMenuChild}/>
-                  <div className={styles.hamburgerMenuChild}/>
-              </div>
-          </div>
+          <TopBar/>
           <div className={styles.imageParent}>
               <div className={styles.slideUpAnimation}>
                   <img className={styles.sexyboi1Icon} alt="" src={require("./assets/sexyBoi.jpg")}/>
@@ -39,9 +28,3 @@ const HomeScreenMobile:  FunctionComponent= () => {
 };
 
 export default HomeScreenMobile;
-
-
-
-const TextComponent = () => {
-    return <div>TextComponent</div>;
-}
